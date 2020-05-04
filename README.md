@@ -33,9 +33,9 @@ This application will be very useful for technicians to check which academy are 
 - I see the objects are already in sorted order, but for worst case I inserted the objects in sorted way while creating.
 
 ###### 5. Details of external libraries / plugin used
-- I have used react-create-app bolier plate to generate the application.
-- Used enzyme for test cases.
-- Added bootstrap for styling.
+- I have used ```react-create-app``` bolier plate to generate the application.
+- Used ```enzyme``` for test cases.
+- Added ```bootstrap``` for styling.
  
 ###### 5. What can be done more
 - We can add ```react-intl``` module, so it will be help us to Internationalize out application
