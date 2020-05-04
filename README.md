@@ -21,7 +21,7 @@ This application will be very useful for technicians to check which academy are 
 ###### 3. Application Design (Code arch)
 - Application will filter the batteryJson to get the list based on academyId. Below is the final objject we generate using utility function ```src/components/utils/utils.js```. 
 ```{"academyId":30015,"redZone":5,"orangeZone":3,"greenZone":3,"academyName":"Academy 4"}```
-- ```utils.js``` will have Below 5 main methods
+- ```utils.js``` will have Below 6 main methods
     - ***filterAcadamies*** : This is the main function which will receive batteryJson object and call inner functions to filter it.
     - ***getSerailNumData***: This will return an object with battery serial number as its key and all objects with same serial number as its values
     - ***getBatteryDetails***: This method will remove all unneccesary battery informationa nd return only timestamp, battery percentage and timestamp in milliseconds.
