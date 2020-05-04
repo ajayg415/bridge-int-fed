@@ -1,0 +1,30 @@
+
+.device-details{
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.card-body{
+  padding: 0.75rem;
+}
+.row{
+  margin: 0;
+  margin-top: 15px;
+}
+
+.card{
+  margin: 5px;
+  padding: 0 5px;
+}
+
+.red-zone{
+  color: red;
+}
+
+.orange-zone{
+  color: orange;
+}
+
+.green-zone{
+  color: green;
+}
